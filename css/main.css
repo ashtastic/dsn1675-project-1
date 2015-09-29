@@ -12,10 +12,18 @@ html {
   text-size-adjust: 100%;
 
   font-size: 100%;
-	font-family: 'Open Sans', serif;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
   line-height: 1.3;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h1 {
+	font-family: 'Amatic SC', cursive;
+}
+
+h2 {
+	font-family: 'Amatic SC', cursive;
 }
