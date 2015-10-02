@@ -11,8 +11,8 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-size: 110%;
-	font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 106%;
+	font-family: 'Oswald', sans-serif;
   line-height: 1.3;
 }
 
@@ -24,28 +24,22 @@ body {
 	margin: 0;
 }
 
-h1 {
-	font-family: 'Amatic SC', cursive;
-	font-size: 7rem;
-	font-weight: normal;
-	line-height: 0.8em;
-	text-align: center;
-	background-color: white;
-	opacity: 0.8;
-	padding: 0.4em;
-	width: 100%;
-	position: absolute;
-}
-
 .wrapper {
 	position: relative;
 	width: 100%;
 }
 
-.donuts {
+h1 {
+	font-style: uppercase;
+	font-size: 5rem;
+	line-height: 1em;
+	text-align: center;
+	background-color: white;
+	opacity: 0.8;
+	padding: 0.4em;
+	padding-bottom: 0.6em;
 	width: 100%;
-	height: 100%;
-	display: block;
+	position: absolute;
 }
 
 .dp {
@@ -57,24 +51,23 @@ h1 {
 	left: 3em;
 }
 
+.donuts {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
 .intro {
-	padding: 6em 0 3em 0;
+	padding: 6em 0 4em 0;
 	text-align: center;
 	background-color: #333;
 }
 
 .intro h2 {
-	font-family: 'Amatic SC', cursive;
 	font-weight: normal;
 	font-size: 2rem;
 	color: white;
 	margin-bottom: 0.5em
-}
-
-.intro a {
-	color: white;
-	display: block;
-	text-decoration: none;
 }
 
 .intro p {
@@ -83,9 +76,20 @@ h1 {
 	margin: 0;
 }
 
-nav ul {
-	list-style: none;
+.intro a {
+	color: white;
 	display: block;
+	text-decoration: none;
+}
+
+.nav {
+	list-style: none;
+	padding: 0 1em;
+	padding-bottom: 1em;
+}
+
+.nav li {
+	width: 33.333%;
 }
 
 .left, .right, .center {
@@ -104,22 +108,21 @@ nav ul {
 	clear: both;
 }
 
-.social {
-	width: 33.333%;
-}
-
 .st0{fill:#333333;} .st1{fill:#FFFFFF;}
 
 .social:hover .st0 {
+	fill: transparent;
+}
 
+.social:hover .st1 {
+	fill: #333333;
 }
 
 h2 {
-	font-family: 'Amatic SC', cursive;
 	font-weight: normal;
 	font-size: 2rem;
 	padding: 0 1rem;
-	margin-top: 2rem;
+	margin-top: 1em;
 }
 
 p {
@@ -132,17 +135,22 @@ em {
 	font-weight: 400;
 }
 
-.mystory {
-	margin-bottom: 3em;
+.last {
+	margin-bottom: 4em;
 }
 
 footer {
 	background-color: #333;
 	color: white;
-	padding: 2rem 1rem 3rem 1rem;
+	padding: 2em 1em 2em 1em;
 	text-align: center;
 }
 
+.p3 {
+	margin-bottom: 2.5em;
+}
+
 footer em {
-	padding: 0 1rem;
+	font-size: 1.1rem;
+	padding: 0 1em;
 }
