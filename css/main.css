@@ -11,8 +11,8 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-size: 106%;
-	font-family: 'Oswald', sans-serif;
+  font-size: 100%;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
   line-height: 1.3;
 }
 
@@ -24,43 +24,29 @@ body {
 	margin: 0;
 }
 
-.wrapper {
-	position: relative;
-	width: 100%;
-}
-
-h1 {
-	font-style: uppercase;
-	font-size: 5rem;
-	line-height: 1em;
+.masthead h1{
+	font-size: 6rem;
+	line-height: 0.8em;
 	text-align: center;
-	background-color: white;
-	opacity: 0.8;
-	padding: 0.4em;
-	padding-bottom: 0.6em;
-	width: 100%;
-	position: absolute;
+	margin: 0;
+	background-image: url("../images/donuts.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 100%;
+	padding: 1em 0 1.5em 0;
 }
 
 .dp {
 	width: 70%;
 	border-radius: 100%;
-	position: absolute;
-	bottom: -6em;
-	right: 3em;
-	left: 3em;
-}
-
-.donuts {
-	width: 100%;
-	height: 100%;
-	display: block;
+	margin-top: -5em;
 }
 
 .intro {
-	padding: 6em 0 4em 0;
 	text-align: center;
 	background-color: #333;
+	display: block;
+	padding-bottom: 3em;
 }
 
 .intro h2 {
@@ -80,6 +66,12 @@ h1 {
 	color: white;
 	display: block;
 	text-decoration: none;
+}
+
+.intro p {
+	color: white;
+	font-weight: 300;
+	margin: 0;
 }
 
 .nav {
@@ -154,3 +146,4 @@ footer em {
 	font-size: 1.1rem;
 	padding: 0 1em;
 }
+
