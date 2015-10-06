@@ -121,16 +121,19 @@ body {
 	fill: #333333;
 }
 
-h2 {
+.mystory {
+	margin: 1em;
+}
+
+.mystory h2 {
 	font-weight: normal;
 	font-size: 2rem;
-	padding: 0 1rem;
 	margin-top: 1em;
+	text-align: center;
 }
 
 p {
 	font-weight: 300;
-	padding: 0 1em;
 }
 
 em {
@@ -157,3 +160,29 @@ footer em {
 	font-size: 1.1rem;
 }
 
+@media only screen and (min-width: 20em) {
+
+		.nav {
+			margin: 0.5em;
+		}
+
+		.nav li {
+			padding: 0.5em;
+		}
+
+		.mystory h2 {
+			text-align: left;
+		}
+
+		footer {
+			text-align: left;
+		}
+
+@media only screen and (min-width: 35em) {
+
+		html {
+			font-size: 110%;
+			line-height: 1.4;
+		}
+
+}
