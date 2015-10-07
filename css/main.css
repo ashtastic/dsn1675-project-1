@@ -28,7 +28,7 @@ body {
 	margin: 0;
 	background-image: url("../images/donuts.jpg");
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: top;
 	background-size: cover;
 	padding: 4em 0 8em 0;
 }
