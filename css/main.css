@@ -29,8 +29,9 @@ body {
 	background-image: url("../images/donuts.jpg");
 	background-repeat: no-repeat;
 	background-position: top;
-	background-size: 100%;
+	background-size: cover;
 	padding: 4em 0 8em 0;
+	z-index: 3;
 }
 
 .h1 h1 {
@@ -38,6 +39,7 @@ body {
 	font-size: 5rem;
 	line-height: 0.8em;
 	text-align: center;
+	z-index: 2;
 }
 
 .h1 {
@@ -52,6 +54,7 @@ body {
 	border-radius: 100%;
 	margin-top: -5em;
 	text-align: center;
+	z-index: 1;
 }
 
 .intro {
@@ -185,14 +188,14 @@ footer em {
 		.h1 h1 {
 			font-size: 6rem;
 			text-align: right;
-			padding-right: 2rem;
+			padding-right: 0.5em;
 		}
 
 		.dp {
-			width: 45%;
+			width: 50%;
 			float: left;
 			margin-top: -8em;
-			margin-left: 2em;
+			margin-left: 1em;
 		}
 
 		.intro {
@@ -231,9 +234,13 @@ footer em {
 			padding: 2em 3em 3em 3em;
 		}
 
+		footer p {
+			font-weight: 300;
+		}
+
 }
 
-@media only screen and (min-width: 53em) {
+@media only screen and (min-width: 45em) {
 
 		html {
 			font-size: 120%;
@@ -249,10 +256,10 @@ footer em {
 		}
 
 		.dp {
-			width: 40%;
+			width: 50%;
 			float: left;
 			margin-top: -8em;
-			margin-left: 2em;
+			margin-left: 1em;
 		}
 
 		.intro {
@@ -293,9 +300,120 @@ footer em {
 
 }
 
-@media only screen and (min-width: 74em) {
+@media only screen and (min-width: 55em) {
 
 		html {
 			font-size: 130%;
 			line-height: 1.6;
 		}
+
+@media only screen and (min-width: 62em) {
+
+		.masthead {
+			padding: 6em 0 8em 0;
+		}
+
+		.h1 h1 {
+			padding-right: 1.5em;
+		}
+
+		.dp {
+			width: 40%;
+			float: left;
+			margin-top: -8em;
+			margin-left: 2em;
+		}
+
+		.intro {
+			text-align: right;
+			padding-right: 10em;
+			padding-top: 1em;
+			z-index: 1;
+		}
+
+		.intro h2 {
+			font-size: 2rem;
+		}
+
+		.nav li {
+			width: 16.5%;
+			text-align: center;
+			padding-bottom: 0;
+		}
+
+		.nav {
+			margin: 1em 8em 0 8em;
+		}
+
+		.mystory {
+			padding: 2em 10em 3em 10em;
+			margin: 0;
+		}
+
+		.mystory h2 {
+			text-align: left;
+			margin-top: 0;
+		}
+
+		footer {
+			text-align: left;
+			padding: 2em 10em 3em 10em;
+		}
+
+}
+
+@media only screen and (min-width: 80em) {
+
+
+		.masthead {
+			padding: 6em 0 8em 0;
+		}
+
+		.h1 h1 {
+			padding-right: 2.5em;
+		}
+
+		.dp {
+			width: 35%;
+			float: left;
+			margin-top: -8em;
+			margin-left: 4em;
+		}
+
+		.intro {
+			text-align: right;
+			padding-right: 15.5em;
+			padding-top: 1em;
+			z-index: 1;
+		}
+
+		.intro h2 {
+			font-size: 2rem;
+		}
+
+		.nav li {
+			width: 16.5%;
+			text-align: center;
+			padding-bottom: 0;
+		}
+
+		.nav {
+			margin: 1em 13em 0 13em;
+		}
+
+		.mystory {
+			padding: 2em 15em 3em 15em;
+			margin: 0;
+		}
+
+		.mystory h2 {
+			text-align: left;
+			margin-top: 0;
+		}
+
+		footer {
+			text-align: left;
+			padding: 2em 15em 3em 15em;
+		}
+
+}
