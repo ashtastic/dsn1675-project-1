@@ -80,6 +80,10 @@ body {
 	text-decoration: none;
 }
 
+.intro a:hover {
+	font-weight: 300;
+}
+
 .nav {
 	list-style: none;
 	margin-top: 1em;
@@ -137,6 +141,15 @@ footer {
 
 footer em {
 	font-size: 1.1rem;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+footer a:hover {
+	font-weight: 300;
 }
 
 @media only screen and (min-width: 20em) {
@@ -276,6 +289,8 @@ footer em {
 			margin-top: -8em;
 		}
 
+}
+
 @media only screen and (min-width: 62em) {
 
 		.masthead {
@@ -307,15 +322,16 @@ footer em {
 		footer {
 			padding: 2em 10em 3em 10em;
 		}
-
 }
 
 @media only screen and (min-width: 65em) {
+
 		.dp {
 			width: 40%;
 			margin-top: -8em;
 			margin-right: 6em;
 		}
+
 }
 
 @media only screen and (min-width: 80em) {
@@ -358,3 +374,5 @@ footer em {
 			margin-left: 6em;
 			width: 35%;
 		}
+
+}
