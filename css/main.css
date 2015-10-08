@@ -109,6 +109,7 @@ body {
 
 .social a {
 	display: block;
+	max-height: 2px;
 }
 
 .mystory {
