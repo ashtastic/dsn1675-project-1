@@ -351,6 +351,72 @@ footer a:hover {
 
 }
 
+@media only screen and (min-width: 98em) {
+
+		.dp {
+			width: 30%;
+		}
+
+		.h1 h1 {
+			padding-right: 3em;
+		}
+
+		.intro {
+			padding-right: 18em;
+		}
+
+		.nav {
+			margin: 1em 17em 0 17em;
+		}
+
+		.mystory {
+			padding: 3em 18em;
+		}
+
+		footer {
+			padding: 2em 18em 3em 18em;
+		}
+
+}
+
+@media only screen and (min-width: 112em) {
+
+		.dp {
+			margin-left: 8em;
+			width: 25%;
+		}
+
+}
+
+@media only screen and (min-width: 132em) {
+
+		.dp {
+			margin-left: 12em;
+			width: 20%;
+		}
+
+		.h1 h1 {
+			padding-right: 4em;
+		}
+
+		.intro {
+			padding-right: 24em;
+		}
+
+		.nav {
+			margin: 1em 23em 0 23em;
+		}
+
+		.mystory {
+			padding: 3em 24em;
+		}
+
+		footer {
+			padding: 2em 24em 3em 24em;
+		}
+
+}
+
 @media print {
 
 		.masthead {
