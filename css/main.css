@@ -108,7 +108,7 @@ body {
 }
 
 .social a {
-	width: 30%;
+	display: block;
 }
 
 .mystory {
