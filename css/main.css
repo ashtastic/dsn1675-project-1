@@ -107,6 +107,10 @@ body {
 	fill: #333333;
 }
 
+.social a {
+	width: 30%;
+}
+
 .mystory {
 	margin: 0;
 	padding: 2em 1em 3em 1em;
