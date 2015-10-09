@@ -28,7 +28,6 @@ body {
 .masthead {
 	margin: 0;
 	padding: 4em 0 8em 0;
-	overflow: hidden;
 	background-image: url("../images/donuts.jpg");
 	background-repeat: no-repeat;
 	background-position: top;
@@ -88,7 +87,6 @@ body {
 .nav {
 	margin-top: 1em;
 	padding: 0;
-	overflow: hidden;
 	list-style: none;
 	text-align: center;
 }
