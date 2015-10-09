@@ -25,6 +25,10 @@ body {
 	margin: 0;
 }
 
+main {
+	display: block;
+}
+
 .masthead {
 	margin: 0;
 	padding: 4em 0 8em 0;
@@ -32,6 +36,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: top;
 	background-size: cover;
+	overflow: hidden;
 }
 
 .h1 {
@@ -107,9 +112,13 @@ body {
 	fill: #333333;
 }
 
-.social a {
-	display: block;
-	max-height: 2px;
+.social {
+	overflow: hidden;
+}
+
+.mystory {
+	margin: 0;
+	padding: 2em 1em 3em 1em;
 }
 
 .mystory h2 {
