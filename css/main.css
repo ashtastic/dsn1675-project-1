@@ -92,6 +92,7 @@ body {
 .nav {
 	margin-top: 1em;
 	padding: 0;
+	overflow: hidden;
 	list-style: none;
 	text-align: center;
 }
@@ -110,10 +111,6 @@ body {
 
 .social:hover .st1 {
 	fill: #333333;
-}
-
-.social {
-	overflow: hidden;
 }
 
 .mystory {
