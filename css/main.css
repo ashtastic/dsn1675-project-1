@@ -113,7 +113,7 @@ body {
 }
 
 .social {
-	overflow: hidden;
+	display: block;
 }
 
 .mystory {
