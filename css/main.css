@@ -89,12 +89,12 @@ body {
 	padding: 0;
 	list-style: none;
 	text-align: center;
+	display: block;
 }
 
 .nav li {
 	padding: 0;
 	display: inline-block;
-	width: 30%;
 }
 
 .st0{fill:#333333;} .st1{fill:#FFFFFF;}
@@ -106,6 +106,7 @@ body {
 .social:hover .st1 {
 	fill: #333333;
 }
+
 
 .mystory {
 	margin: 0;
@@ -132,7 +133,7 @@ footer {
 	padding: 2em 1em 2.5em 1em;
 	background-color: #333;
 	color: white;
-	text-align: center;
+	text-align: left;
 }
 
 footer p {
@@ -155,6 +156,14 @@ footer a:hover {
 	font-weight: 400;
 }
 
+@media only screen and (min-width: 18em) {
+
+		.nav {
+			padding: 1em 0.5em 0em 1em;
+		}
+
+}
+
 @media only screen and (min-width: 20em) {
 
 		.dp {
@@ -166,12 +175,15 @@ footer a:hover {
 		}
 
 		.nav {
-			margin: 1em 0.5em 0 0.5em ;
+			padding: 1em 1.5em 0 1.5em;
 		}
 
+}
 
-		.mystory {
-			padding: 3em;
+@media only screen and (min-width: 21em) {
+
+		.nav {
+			padding: 1em 2.5em 0 2.5em;
 		}
 
 }
@@ -187,7 +199,44 @@ footer a:hover {
 			width: 55%;
 		}
 
+		.nav {
+			padding: 1em 4em 0 4em;
+		}
+
+		.mystory {
+			padding: 1em 3em 2.5em 3em;
+		}
+
+		footer {
+			padding-left: 3em;
+		}
+
 }
+
+@media only screen and (min-width: 28em) {
+
+		.nav {
+			padding: 1em 5em 0 5em;
+		}
+
+		.mystory h2, footer {
+			text-align: left;
+		}
+
+		footer {
+			padding-left: 3em;
+		}
+
+}
+
+@media only screen and (min-width: 30em) {
+
+		.nav {
+			padding: 1em 0.5em 0 0.5em;
+		}
+
+}
+
 
 @media only screen and (min-width: 33em) {
 
@@ -215,7 +264,7 @@ footer a:hover {
 		}
 
 		.nav {
-			margin: 1em 2em 0 2em;
+			padding: 1em 2em 0 2em;
 		}
 
 		.nav li {
@@ -227,7 +276,7 @@ footer a:hover {
 		}
 
 		footer {
-			padding: 2em 3em 3em 3em;
+			padding: 2em 3em 2.5em 3em;
 		}
 
 }
@@ -249,13 +298,8 @@ footer a:hover {
 			padding-right: 6em;
 		}
 
-		.nav li {
-			padding-bottom: 0;
-			text-align: center;
-		}
-
 		.nav {
-			margin: 1em 4.5em 0 4.5em;
+			padding: 1em 4em 0 4em;
 		}
 
 		.mystory {
@@ -263,7 +307,7 @@ footer a:hover {
 		}
 
 		footer {
-			padding: 2em 6em 3em 6em;
+			padding: 2em 6em 2.5em 6em;
 		}
 
 }
@@ -273,6 +317,10 @@ footer a:hover {
 		html {
 			font-size: 130%;
 			line-height: 1.6;
+		}
+
+		.nav {
+			padding: ;
 		}
 
 }
@@ -289,7 +337,7 @@ footer a:hover {
 		}
 
 		.nav {
-			margin: 1em 8.5em 0 8.5em;
+			padding: 1em 8.5em 0 8.5em;
 		}
 
 		.mystory {
@@ -297,8 +345,9 @@ footer a:hover {
 		}
 
 		footer {
-			padding: 2em 10em 3em 10em;
+			padding: 2em 10em 2.5em 10em;
 		}
+
 }
 
 @media only screen and (min-width: 65em) {
@@ -330,7 +379,7 @@ footer a:hover {
 		}
 
 		.nav {
-			margin: 1em 13.5em 0 13.5em;
+			padding: 1em 13.5em 0 13.5em;
 		}
 
 		.mystory {
@@ -338,12 +387,18 @@ footer a:hover {
 		}
 
 		footer {
-			padding: 2em 15em 3em 15em;
+			padding: 2em 15em 2.5em 15em;
 		}
 
 }
 
-@media only screen and (min-width: 96em) {
+@media only screen and (min-width: 88em) {
+
+		.nav {
+			padding: 1em 13em 0 13em;
+		}
+
+@media only screen and (min-width: 94em) {
 
 		.dp {
 			margin-left: 16.5;
@@ -359,7 +414,7 @@ footer a:hover {
 		}
 
 		.nav {
-			margin: 1em 16.5em 0 16.5em;
+			padding: 1em 16em 0 16em;
 		}
 
 		.mystory {
@@ -367,7 +422,7 @@ footer a:hover {
 		}
 
 		footer {
-			padding: 2em 18em 3em 18em;
+			padding: 2em 18em 2.5em 18em;
 		}
 
 }
@@ -396,7 +451,7 @@ footer a:hover {
 		}
 
 		.nav {
-			margin: 1em 18.5em 0 18.5em;
+			padding: 1em 18.5em 0 18.5em;
 		}
 
 		.mystory {
@@ -404,7 +459,7 @@ footer a:hover {
 		}
 
 		footer {
-			padding: 2em 21em 3em 21em;
+			padding: 2em 21em 2.5em 21em;
 		}
 
 }
@@ -417,7 +472,7 @@ footer a:hover {
 
 }
 
-	@media only screen and (min-width: 130em) {
+	@media only screen and (min-width: 140em) {
 
 		.h1 h1 {
 			padding-right: 4em;
@@ -433,7 +488,7 @@ footer a:hover {
 		}
 
 		.nav {
-			margin: 1em 20em 0 20em;
+			padding: 1em 20em 0 20em;
 		}
 
 		.mystory {
@@ -441,7 +496,7 @@ footer a:hover {
 		}
 
 		footer {
-			padding: 2em 24em 3em 24em;
+			padding: 2em 24em 2.5em 24em;
 		}
 
 }
