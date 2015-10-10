@@ -28,6 +28,7 @@ body {
 .masthead {
 	margin: 0;
 	padding: 4em 0 8em 0;
+	display: block;
 	background-image: url("../images/donuts.jpg");
 	background-repeat: no-repeat;
 	background-position: top;
