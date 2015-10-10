@@ -28,7 +28,6 @@ body {
 .masthead {
 	margin: 0;
 	padding: 4em 0 8em 0;
-	overflow: hidden;
 	background-image: url("../images/donuts.jpg");
 	background-repeat: no-repeat;
 	background-position: top;
@@ -38,6 +37,7 @@ body {
 .h1 {
 	margin: 0;
 	padding: 1.5em 0;
+	overflow: hidden;
 	background-color: white;
 	opacity: 0.8;
 }
@@ -219,7 +219,7 @@ footer a:hover {
 		}
 
 		.nav {
-			margin: 1em 2.5em 0 2.5em;
+			margin: 1em 2em 0 2em;
 		}
 
 		.mystory {
@@ -263,7 +263,7 @@ footer a:hover {
 		}
 
 		.nav {
-			margin: 1em 5em 0 5em;
+			margin: 1em 4.5em 0 4.5em;
 		}
 
 		.mystory {
@@ -305,7 +305,7 @@ footer a:hover {
 		}
 
 		.nav {
-			margin: 1em 9em 0 9em;
+			margin: 1em 8.5em 0 8.5em;
 		}
 
 		.mystory {
@@ -337,7 +337,7 @@ footer a:hover {
 		}
 
 		.nav {
-			margin: 1em 14em 0 14em;
+			margin: 1em 13.5em 0 13.5em;
 		}
 
 		.mystory {
@@ -373,7 +373,7 @@ footer a:hover {
 		}
 
 		.nav {
-			margin: 1em 17em 0 17em;
+			margin: 1em 16.5em 0 16.5em;
 		}
 
 		.mystory {
@@ -411,7 +411,7 @@ footer a:hover {
 		}
 
 		.nav {
-			margin: 1em 23em 0 23em;
+			margin: 1em 22.5em 0 22.5em;
 		}
 
 		.mystory {
