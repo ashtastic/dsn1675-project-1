@@ -29,12 +29,14 @@ body {
 	margin: 0;
 	padding: 4em 0 8em 0;
 	display: block;
-	overflow: hidden;
 	width: 100%;
 	background-image: url("../images/donuts.jpg");
 	background-repeat: no-repeat;
 	background-position: top;
 	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
 .h1 {
