@@ -127,8 +127,8 @@ body {
 }
 
 .mystory em {
-	font-style: normal;
 	font-weight: 400;
+	font-style: normal;
 }
 
 footer {
@@ -235,7 +235,6 @@ footer a:hover {
 
 }
 
-
 @media only screen and (min-width: 33em) {
 
 		.masthead {
@@ -244,8 +243,8 @@ footer a:hover {
 
 		.h1 h1 {
 			padding-right: 0.5em;
-			text-align: right;
 			font-size: 6rem;
+			text-align: right;
 		}
 
 		.dp {
@@ -278,7 +277,6 @@ footer a:hover {
 		}
 
 }
-
 
 @media only screen and (min-width: 45em) {
 
@@ -317,10 +315,6 @@ footer a:hover {
 			line-height: 1.6;
 		}
 
-		.nav {
-			padding: ;
-		}
-
 }
 
 @media only screen and (min-width: 62em) {
@@ -356,8 +350,8 @@ footer a:hover {
 		}
 
 		.dp {
-			width: 40%;
 			margin-left: 3em;
+			width: 40%;
 		}
 
 }
@@ -396,10 +390,12 @@ footer a:hover {
 			padding: 1em 13em 0 13em;
 		}
 
+}
+
 @media only screen and (min-width: 94em) {
 
 		.dp {
-			margin-left: 16.5;
+			margin-left: 16.5em;
 			width: 35%;
 		}
 
@@ -468,6 +464,8 @@ footer a:hover {
 			padding: 1em 18em 0 18em;
 		}
 
+}
+
 @media only screen and (min-width: 130em) {
 
 		html {
@@ -535,8 +533,8 @@ footer a:hover {
 			padding-left: 0.25em;
 			display: inline-block;
 			float: left;
-			text-align: right;
 			font-size: 4.5rem;
+			text-align: right;
 		}
 
 		.dp {
