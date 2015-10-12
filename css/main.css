@@ -28,6 +28,7 @@ body {
 .masthead {
 	margin: 0;
 	padding: 4em 0 8em 0;
+	display: block;
 	width: 100%;
 	background-image: url("../images/donuts.jpg");
 	background-repeat: no-repeat;
@@ -38,6 +39,7 @@ body {
 .h1 {
 	margin: 0;
 	padding: 1.5em 0;
+	display: block;
 	background-color: white;
 	opacity: 0.8;
 }
