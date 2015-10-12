@@ -29,6 +29,7 @@ body {
 	margin: 0;
 	padding: 4em 0 8em 0;
 	display: block;
+	overflow: hidden;
 	width: 100%;
 	background-image: url("../images/donuts.jpg");
 	background-repeat: no-repeat;
