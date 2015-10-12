@@ -28,12 +28,12 @@ body {
 .masthead {
 	margin: 0;
 	padding: 4em 0 8em 0;
-	overflow: hidden;
-	width: 100%;
+	background-color: pink;
+/*
 	background-image: url("../images/donuts.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: cover;*/
 }
 
 .h1 {
