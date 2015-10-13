@@ -269,7 +269,7 @@ footer a:hover {
 
 }
 
-@media only screen and (min-width: 45em) {
+@media only screen and (min-width: 42em) {
 
 		html {
 			font-size: 120%;
@@ -380,7 +380,11 @@ footer a:hover {
 
 }
 
-@media only screen and (min-width: 88em) {
+@media only screen and (min-width: 86em) {
+
+		.dp {
+			width: 35%;
+		}
 
 		.nav {
 			padding: 1em 13em 0 13em;
@@ -392,7 +396,6 @@ footer a:hover {
 
 		.dp {
 			margin-left: 16.5em;
-			width: 35%;
 		}
 
 		.h1 h1 {
