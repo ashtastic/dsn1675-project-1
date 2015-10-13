@@ -163,6 +163,10 @@ footer a:hover {
 			width: 60%;
 		}
 
+		.nav {
+			padding: 1em 1em 0 1em;
+		}
+
 }
 
 @media only screen and (min-width: 20em) {
@@ -175,12 +179,24 @@ footer a:hover {
 			padding-top: 4em;
 		}
 
+		.nav {
+			padding: 1em 1.5em 0 1.5em;
+		}
+
 }
 
 @media only screen and (min-width: 21em) {
 
 		.nav {
-			padding: 1em 1em 0 1em;
+			padding: 1em 2em 0 2em;
+		}
+
+}
+
+@media only screen and (min-width: 23em) {
+
+		.nav {
+			padding: 1em 2.5em 0 2.5em;
 		}
 
 }
@@ -196,6 +212,10 @@ footer a:hover {
 			width: 50%;
 		}
 
+		.nav {
+			padding: 1em 4em 0 4em;
+		}
+
 		.mystory {
 			padding: 1em 1.5em 2.5em 1.5em;
 		}
@@ -206,10 +226,18 @@ footer a:hover {
 
 }
 
+@media only screen and (min-width: 25em) {
+
+		.nav {
+			padding: 1em 4.5em 0 4.5em;
+		}
+
+}
+
 @media only screen and (min-width: 26em){
 
 		.nav {
-			padding: 1em 2.5em 0 2.5em;
+			padding: 1em 5em 0 5em;
 		}
 
 }
@@ -218,10 +246,6 @@ footer a:hover {
 
 		.nav {
 			padding: 1em 0.5em 0 0.5em;
-		}
-
-		.mystory h2, footer {
-			text-align: left;
 		}
 
 }
