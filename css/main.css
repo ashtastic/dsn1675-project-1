@@ -43,6 +43,7 @@ body {
 
 .h1 h1 {
 	margin: 0;
+	font-style: bolder;
 	font-size: 5rem;
 	line-height: 0.8em;
 	text-align: center;
