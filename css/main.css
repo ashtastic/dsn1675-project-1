@@ -131,7 +131,7 @@ body {
 }
 
 footer {
-	padding: 2em 1em 2.5em 1em;
+	padding: 2em 1em 3em 1em;
 	background-color: #333;
 	color: white;
 	text-align: left;
@@ -260,11 +260,11 @@ footer a:hover {
 		}
 
 		.mystory {
-			padding: 2em 3em 2.5em 3em;
+			padding: 1em 3em 2.5em 3em;
 		}
 
 		footer {
-			padding: 2em 3em 2.5em 3em;
+			padding: 2em 3em 3em 3em;
 		}
 
 }
@@ -289,11 +289,11 @@ footer a:hover {
 		}
 
 		.mystory {
-			padding: 3em 6em;
+			padding: 1em 6em 2.5em 6em;
 		}
 
 		footer {
-			padding: 2em 6em 2.5em 6em;
+			padding: 2em 6em 3em 6em;
 		}
 
 }
@@ -322,11 +322,11 @@ footer a:hover {
 		}
 
 		.mystory {
-			padding: 3em 10em;
+			padding: 1em 10em 2.5em 10em;
 		}
 
 		footer {
-			padding: 2em 10em 2.5em 10em;
+			padding: 2em 10em 3em 10em;
 		}
 
 }
@@ -363,11 +363,11 @@ footer a:hover {
 		}
 
 		.mystory {
-			padding: 3em 15em;
+			padding: 1em 15em 2.5em 15em;
 		}
 
 		footer {
-			padding: 2em 15em 2.5em 15em;
+			padding: 2em 15em 3em 15em;
 		}
 
 }
@@ -411,11 +411,11 @@ footer a:hover {
 		}
 
 		.mystory {
-			padding: 3em 18em;
+			padding: 1em 18em 2.5em 18em;
 		}
 
 		footer {
-			padding: 2em 18em 2.5em 18em;
+			padding: 2em 18em 3em 18em;
 		}
 
 }
@@ -448,11 +448,11 @@ footer a:hover {
 		}
 
 		.mystory {
-			padding: 3em 21em;
+			padding: 1em 21em 2.5em 21em;
 		}
 
 		footer {
-			padding: 2em 21em 2.5em 21em;
+			padding: 2em 21em 3em 21em;
 		}
 
 }
@@ -493,11 +493,11 @@ footer a:hover {
 		}
 
 		.mystory {
-			padding: 3em 24em;
+			padding: 1em 24em 2.5em 24em;
 		}
 
 		footer {
-			padding: 2em 24em 2.5em 24em;
+			padding: 2em 24em 3em 24em;
 		}
 
 }
