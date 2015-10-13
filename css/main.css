@@ -158,6 +158,10 @@ footer a:hover {
 
 @media only screen and (min-width: 18em) {
 
+		.dp {
+			width: 50%;
+		}
+
 		.nav {
 			padding: 1em 0.5em 0em 0.5em;
 		}
@@ -196,7 +200,7 @@ footer a:hover {
 		}
 
 		.dp {
-			width: 55%;
+			width: 45%;
 		}
 
 		.nav {
